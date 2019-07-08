@@ -1,0 +1,23 @@
+#formToolbar {
+    background-color: #d6f3ec;
+    z-index: 1000;
+    position: sticky;
+    width: 100%;
+    pointer-events: all;
+    padding: 5px 5px 0 5px;
+    border-bottom: #da0000 5px solid;
+}
+
+.form_selected {
+    border: 2px solid #ff9368;
+}
+
+.element_selected {
+    border-width: 4px !important;
+    box-shadow: 0 0 2px 2px #ff9368;
+}
+
+.formClickable:hover {
+    cursor: pointer !important;
+    border: 2px solid rgba(255, 147, 104, 0.47);
+}
